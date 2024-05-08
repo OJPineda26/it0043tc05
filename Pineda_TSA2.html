@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Pokemon List</title>
+    <style>
+        h1 {
+            color: black;
+            font-family: Verdana, Arial, sans-serif; 
+        }
+
+        body {
+            background-image: url('https://c4.wallpaperflare.com/wallpaper/77/185/192/pokemon-go-4k-high-def-for-mac-wallpaper-preview.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            font-weight: bold;
+            font-family: Verdana, Arial, sans-serif; 
+            color: white;
+        }
+
+        input, label {
+            color: black; 
+            font-family: Verdana, Arial, sans-serif; 
+        }
+
+        table, th, td {
+            font-weight: bold;
+            font-family: Verdana, Arial, sans-serif;
+            font-size: 14px; 
+            border: 1px solid white;
+            text-align: center; 
+        }
+
+        table {
+            width: 100%;
+            table-layout: fixed; 
+        }
+
+        input[type="submit"] {
+            background-color: black; 
+            color: white;
+        } 
+    </style>
+</head>
+<body>
+    <center>
+        <form action="">
+            <h1> My Pokemon List</h1>
+            <br>
+
+            <label for="dex">National Dex: </label>
+            <input type="number" name="" id="dex" min="1"><br><br>
+
+            <input type="radio" name="gen" id="gen1">
+            <label for="gen1">Generation 1</label>
+
+            <input type="radio" name="gen" id="gen2">
+            <label for="gen2">Generation 2</label>
+
+            <input type="radio" name="gen" id="gen3">
+            <label for="gen3">Generation 3</label>
+
+            <input type="radio" name="gen" id="gen4">
+            <label for="gen4">Generation 4</label>
+
+            <input type="radio" name="gen" id="gen5">
+            <label for="gen5">Generation 5</label>
+
+            <input type="radio" name="gen" id="gen6">
+            <label for="gen6">Generation 6</label>
+
+            <input type="radio" name="gen" id="gen7">
+            <label for="gen7">Generation 7</label>
+
+            <input type="radio" name="gen" id="gen8">
+            <label for="gen8">Generation 8</label>
+
+            <input type="radio" name="gen" id="gen9">
+            <label for="gen9">Generation 9</label><br><br>
+
+            <label for="name">Pokemon Name: </label>
+            <input type = "text" name = "name" id = "name"><br><br>
+
+            <label for="file">Image:</label>
+            <input type="file" name="file" id="file"><br><br>
+
+            <label for="type1">Type 1: </label>
+            <input list="type1" name="type1">
+            <datalist id="type1">
+                <option value="Poison">
+                <option value="Water">
+                <option value="Normal">
+                <option value="Grass">
+                <option value="Electric">
+                <option value="Bug">
+                <option value="Fire">
+                <option value="Ground">
+                <option value="Psychic">
+                <option value="Rock">
+                <option value="Fighting">
+                <option value="Ice">
+                <option value="Ghost">
+                <option value="Dragon">
+                <option value="Steel">
+                <option value="Flying">
+                <option value="Fairy">
+                <option value="Dark">
+            </datalist>
+
+            <label for="type2">Type 2: </label>
+            <input list="type2" name="type2">
+            <datalist id="type2">
+                <option value="Poison">
+                    <option value="Water">
+                    <option value="Normal">
+                    <option value="Grass">
+                    <option value="Electric">
+                    <option value="Bug">
+                    <option value="Fire">
+                    <option value="Ground">
+                    <option value="Psychic">
+                    <option value="Rock">
+                    <option value="Fighting">
+                    <option value="Ice">
+                    <option value="Ghost">
+                    <option value="Dragon">
+                    <option value="Steel">
+                    <option value="Flying">
+                    <option value="Fairy">
+                    <option value="Dark">
+            </datalist>
+
+            <br><br>
+            <label for="Evolves from:">Evolves from:</label>
+            <input type="text" name="evolvesfrom" id="evolvesfrom">
+            <label for="Evolves to:">Evolves to:</label>
+            <input type="text" name="evolvesto" id="evolvesto"><br><br>
+
+            <label for="Nickname">Nickname: </label>
+            <input type="text" name="nickname" id="nickname"><br><br>
+
+            <label for="Birthday:">Birthday:</label>
+            <input type="date" name="birthday" id="birthday"><br><br>
+
+            <input type="submit" value="Submit"> <br> <br> <br> <br>
+
+            <table border="1px" width="1000px" style="background-color: rgba(114, 10, 10, 0.5);">
+                <tr>
+                    <th>
+                        National Dex
+                    </th>
+                    <th>
+                        Generation
+                    </th>
+                    <th>
+                        Pokemon Name
+                    </th>
+                    <th>
+                        Image
+                    </th>
+                    <th>
+                        Type 1
+                    </th>
+                    <th>
+                        Type 2
+                    </th>
+                    <th>
+                        Evolves From
+                    </th>
+                    <th>
+                        Evolves To
+                    </th>
+                    <th>
+                        Nickname
+                    </th>
+                    <th>
+                        Birthday
+                    </th>
+                </tr>
+                <tr align="center">
+                    <td>
+                        69
+                    </td>
+                    <td>
+                        Generation Z
+                    </td>
+                    <td>
+                        Oliver
+                    </td>
+                    <td>
+                        <img
+                            src="https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-6/404540509_1069505554029938_9220906482815665180_n.jpg?stp=dst-jpg_p206x206&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=rM5kI4nKGMUQ7kNvgG6pTWb&_nc_ht=scontent-mnl1-2.xx&oh=00_AfDu7aiZVWr46pw-6aFUb0QF2e30Su84PhhqdYrhLgNpKg&oe=66413743" height = 120px>
+                    </td>
+                    <td bgcolor="blueviolet">
+                        <font color="black">Dragon</font>
+                    </td>
+                    <td bgcolor="brown">
+                        <font color="black">Fighting</font>
+                    </td>
+                    <td>
+                        EMO PINEDA
+                    </td>
+                    <td>
+                        GODLIKE JESSED
+                    </td>
+                    <td>
+                        OJ
+                    </td>
+                    <td>
+                        05-26-2004
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        130
+                    </td>
+                    <td>
+                        Generation 1
+                    </td>
+                    <td>
+                        Gyarados
+                    </td>
+                    <td>
+                        <img
+                            src="https://archives.bulbagarden.net/media/upload/e/e3/Spr_5b_130_m.png" height = 120px>
+                    </td>
+                    <td bgcolor="#2980ef">
+                        <font color="white">Water</font>
+                    </td>
+                    <td bgcolor="#81b9ef">
+                        <font color="white">Flying</font>
+                    <td>
+                        Majikarp
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        Tilapia
+                    </td>
+                    <td>
+                        12-05-2012
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        127
+                    </td>
+                    <td>
+                        Generation 2
+                    </td>
+                    <td>
+                        Skarmory
+                    </td>
+                    <td>
+                        <img
+                            src="https://archives.bulbagarden.net/media/upload/e/e6/Spr_5b_227.png" height = 120px>
+                    </td>
+                    <td bgcolor="#60a1b8">
+                        <font color="white">Steel</font>
+                    <td bgcolor="#81b9ef">
+                        <font color="white">Flying</font>
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        Silver Swan
+                    </td>
+                    <td>
+                        06-06-2013
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        306
+                    </td>
+                    <td>
+                        Generation 3
+                    </td>
+                    <td>
+                        Aggron
+                    </td>
+                    <td>
+                        <img
+                            src="https://archives.bulbagarden.net/media/upload/c/cd/Spr_5b_306.png" height = 120px>
+                    </td>
+                    <td bgcolor="#60a1b8">
+                        <font color="white">Steel</font>
+                    <td bgcolor="#afa981">
+                        <font color="white">Rock</font>
+                    </td>
+                    <td>
+                        Lairon
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        Godzilla
+                    </td>
+                    <td>
+                        09-16-2017
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        483
+                    </td>
+                    <td>
+                        Generation 4
+                    </td>
+                    <td>
+                        Dialga
+                    </td>
+                    <td>
+                        <img
+                            src="https://archives.bulbagarden.net/media/upload/2/27/Spr_5b_483.png" height = 120px>
+                    </td>
+                    <td bgcolor="#60a1b8">
+                        <font color="white">Steel</font>
+                    <td bgcolor="#5060e1">
+                        <font color="white">Dragon</font>
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        Bluezilla
+                    </td>
+                    <td>
+                        01-05-2019
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        0583
+                    </td>
+                    <td>
+                        Generation 5
+                    </td>
+                    <td>
+                        Vanillish
+                    </td>
+                    <td>
+                        <img
+                            src="https://archives.bulbagarden.net/media/upload/c/cb/Spr_5b_583.png" height = 120px>
+                    </td>
+                    <td bgcolor="#3dcef3" colspan = "2">
+                        <font color="white">Ice</font>
+                    </td>
+                    <td>
+                        Vanillite
+                    </td>
+                    <td>
+                        Vanilluxe
+                    </td>
+                    <td>
+                        Ice Cream
+                    </td>
+                    <td>
+                        01-03-2016
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        254
+                    </td>
+                    <td>
+                        Generation 6
+                    </td>
+                    <td>
+                        Xerneas
+                    </td>
+                    <td>
+                        <img
+                            src="https://i.gifer.com/origin/77/77999dbadd14c08df581527361c2b31f_w200.gif" height = 120px>
+                    </td>
+                    <td bgcolor="#ef70ef" colspan = "2">
+                        <font color="white">Fairy</font>
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        Bucks
+                    </td>
+                    <td>
+                        05-07-2002
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        0796
+                    </td>
+                    <td>
+                        Generation 7
+                    </td>
+                    <td>
+                        Xurkitree 
+                    </td>
+                    <td>
+                        <img
+                            src="https://img1.picmix.com/output/stamp/normal/3/5/4/1/2201453_6df83.gif" height = 120px>
+                    </td>
+                    <td bgcolor="#fac000" colspan = "2">
+                        <font color="white">Electric</font>
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        Ano Toh!?!
+                    </td>
+                    <td>
+                        02-04-2013
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        0874
+                    </td>
+                    <td>
+                        Generation 8
+                    </td>
+                    <td>
+                        Stonjourner 
+                    </td>
+                    <td>
+                        <img
+                            src="https://media.baamboozle.com/uploads/images/389510/1628213053_483641_gif-url.gif" height = 120px>
+                    </td>
+                    <td bgcolor="#afa981" colspan = "2">
+                        <font color="white">Rock</font>
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        The Rock
+                    </td>
+                    <td>
+                        03-05-2015
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        526
+                    </td>
+                    <td>
+                        Generation 9
+                    </td>
+                    <td>
+                        Orthrworm
+                    </td>
+                    <td>
+                        <img
+                            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0ff71e15-a6f4-44ef-955c-99c78d959c44/dfrcwon-87aff40d-1f98-4d4b-af17-06371ca5fb98.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBmZjcxZTE1LWE2ZjQtNDRlZi05NTVjLTk5Yzc4ZDk1OWM0NFwvZGZyY3dvbi04N2FmZjQwZC0xZjk4LTRkNGItYWYxNy0wNjM3MWNhNWZiOTguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GFSrD0N9SMesiTKrLszztqc4YGIH3Ibv8TLLBud7Hnk" height = 120px>
+                    </td>
+                    <td bgcolor="#60a1b8" colspan = "2">
+                        <font color="white">Steel</font>
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        Orth
+                    </td>
+                    <td>
+                        01-05-2010
+                    </td>
+                </tr>
+
+            </table>
+
+
+
+    </center>
+
+</body>
+</html>
