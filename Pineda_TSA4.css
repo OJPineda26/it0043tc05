@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/2a/d1/76/2ad1766c6851acac52029ccb4af1da6c.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.container {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.card {
+  width: 30%;
+  height: auto;
+  border-radius: 1rem;
+  vertical-align: top;
+  border-width: 10px;
+  margin: 1rem 1rem;
+  box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+.image {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/4/194/322/pokemon-pokeball-wallpaper-preview.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.details {
+  width: 100%;
+  text-align: center;
+  max-height: min-content;
+  padding-top: 5px;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.Green {
+  background-color: #82c274;
+}
+
+.Red {
+  background-color: #ef7374;
+}
+
+.Blue {
+  background-color: #74acf5;
+}
+
+.Pink {
+  background-color: #f584a8;
+}
+
+.Purple {
+  background-color: #a284a2;
+}
+
+.type1 {
+  color: white;
+  border-style: solid;
+  width: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+}
+
+.Grass {
+  background-color: #3fa129;
+}
+
+.Poison {
+  background: #9141cb;
+}
+
+.Fire {
+  background: #e62829;
+}
+
+.Dragon {
+  background-color: #5060e1;
+}
+
+.Water {
+  background: #2980ef;
+}
+
+.Psychic {
+  background: #ef4179;
+}
+
+.Fighting {
+  background: #ff8000;
+}
+
+.Ghost {
+  background: #704170;
+}
+
+.Dark {
+  background: #624d4e;
+}
+
+.buttons {
+  text-align: center;
+  padding: 1rem;
+}
+
+.name {
+  color: azure;
+  padding-top: 10px;
+}
+
+.type {
+  color: azure;
+}
+
+.desc {
+  padding: 1rem;
+  font-size: larger;
+  color: azure;
+  margin: 4rem;
+}
+
+.add {
+  transition-duration: 0.4s;
+  color: rgb(255, 255, 255);
+  border-style: solid;
+  text-align: center;
+  width: auto;
+  margin: 5px;
+  padding: 10px;
+  background: #00008b;
+  border-radius: 20px;
+}
+
+.add:hover {
+  background-color: #f0ffff;
+  color: #00008b;
+}
+
+.release {
+  transition-duration: 0.4s;
+  color: white;
+  border-style: solid;
+  text-align: center;
+  width: auto;
+  margin: 5px;
+  padding: 10px;
+  background: #dc143c;
+  border-radius: 20px;
+}
+
+.release:hover {
+  background-color: #f0ffff;
+  color: #dc143c;
+}
