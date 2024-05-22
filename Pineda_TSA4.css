@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(background.jpg);
+}
+
+
+.container {
+    background-color: rgb(255, 255, 255, 50%);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.card {
+    width: 30%;
+    height: auto;
+    border-radius: 1rem;
+    vertical-align: top;
+    border-width: 10px;
+    margin: 1rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.60) 0px 5px 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+.image {
+    background-image: url(cardbg.jpg);
+    width: 100%;
+    padding-top: 30px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+.details {
+    width: 100%;
+    text-align: center;
+    max-height: min-content;
+    padding-top: 5px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.Yellow {
+    background-color: rgb(230, 192, 98);
+}
+
+.Red {
+    background-color: rgb(230, 98, 98);
+}
+
+.Light {
+    background-color: rgb(98, 199, 230);
+}
+
+.Purple {
+    background-color: rgb(138, 98, 230);
+}
+
+.Gray {
+    background-color: rgb(165, 165, 165);
+}
+
+.Pink {
+    background-color: rgb(221, 96, 138);
+}
+
+.type1{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    border-style: solid;
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.Electric {
+    background: rgb(189, 189, 72);
+}
+
+.Fire {
+    background: rgb(189, 35, 24);
+}
+
+.Psychic {
+    background: rgb(235, 111, 179);
+}
+
+.Dark {
+    background: rgb(80, 70, 69);
+}
+
+.Flying {
+    background: rgb(135, 207, 230);
+}
+
+.Ghost {
+    background: rgb(135, 145, 230);
+}
+
+.Steel {
+    background: rgb(105, 138, 175);
+}
+
+.Rock {
+    background: rgb(155, 142, 118);
+}
+
+.buttons {
+    text-align: center;
+    padding: 1rem;
+}
+
+.name {
+    color: azure;
+    text-shadow: 2px 2px 4px #000000;
+    padding-top: 10px;
+}
+
+.type {
+    color: azure;
+    text-shadow: 2px 2px 4px #000000;
+    display: inline-block;
+}
+
+.desc {
+    color: azure;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 1rem;
+}
+
+.add {
+    transition-duration: 0.4s;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    border-style: solid;
+    text-align: center;
+    width: auto;
+    margin: 5px;
+    padding: 10px;
+    background: rgb(39, 139, 221);
+    border-radius: 20px;
+}
+
+.add:hover {
+    background-color: #ffffff;
+    color: rgb(39, 139, 221);
+}
+
+.release {
+    transition-duration: 0.4s;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    border-style: solid;
+    text-align: center;
+    width: auto;
+    margin: 5px;
+    padding: 10px;
+    background: rgb(197, 63, 39);
+    border-radius: 20px;
+}
+
+.release:hover {
+    background-color: #ffffff;
+    color: rgb(197, 63, 39);
+}
