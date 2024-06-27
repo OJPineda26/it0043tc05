@@ -9,15 +9,17 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  align-items: start;
+  min-height: 100vh;
   margin: 0;
+  padding: 50px;
   background-color: #f0f0f0;
-  background-image: url(gif.gif);
+  background-image: url(pokemonbg.jpg);
   background-size: cover;
 }
 
 #main-container {
+  height: 150vh;
   display: flex;
   gap: 20px;
   padding: 20px;
@@ -27,11 +29,14 @@ body {
   max-width: 100%;
   border: 1px solid black;
   font-weight: 700;
-  background-image: url(b534013296cf75be35e0493cc33698ce.gif);
+  background-image: url(prairie.jpg);
+  background-size: cover;
 }
 
 #operations-container {
-  width: 300px;
+  width: 500px;
+  height: 140vh;
+  margin: auto;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -39,6 +44,10 @@ body {
 
 #operations-container h2 {
   margin: 0 0 10px;
+  text-align: center;
+}
+
+#operations-container h3 {
   text-align: center;
 }
 
@@ -63,15 +72,7 @@ body {
   padding: 5px;
   border: 1px solid black;
   border-radius: 5px;
-}
-
-label {
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: darkolivegreen;
-  color: white;
-  padding: 5px;
-  font-weight: bold;
+  background-color: lightblue;
 }
 
 button,
@@ -137,6 +138,9 @@ input[type="number"] {
   height: 60px;
   width: 60px;
   color: white;
+  font-size: 40px;
+  text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000, 4px 4px 10px rgba(0, 0, 0, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -146,4 +150,22 @@ input[type="number"] {
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+}
+
+#box1 {
+  background-image: url(squarepokeball2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#box2 {
+  background-image: url(squaregreatball2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#box3 {
+  background-image: url(squareultraball.jpg);
+  background-size: cover;
+  background-position: center;
 }
